@@ -1,4 +1,4 @@
-﻿namespace CORR.Communications.Sms;
+﻿namespace Cirreum.Communications.Sms;
 /// <summary>
 /// Response object for bulk message operations
 /// </summary>

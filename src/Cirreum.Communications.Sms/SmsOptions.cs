@@ -1,4 +1,4 @@
-﻿namespace CORR.Communications.Sms;
+﻿namespace Cirreum.Communications.Sms;
 
 /// <summary>
 /// Options for customizing SMS message delivery behavior.

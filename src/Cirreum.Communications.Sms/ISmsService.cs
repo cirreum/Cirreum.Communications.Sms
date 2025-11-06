@@ -1,4 +1,4 @@
-﻿namespace CORR.Communications.Sms;
+﻿namespace Cirreum.Communications.Sms;
 
 /// <summary>
 /// Defines the contract for an SMS service that supports sending text messages 

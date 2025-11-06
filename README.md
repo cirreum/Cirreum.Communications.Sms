@@ -1,9 +1,10 @@
-# CORR.Communications.Sms
+# Cirreum.Communications.Sms
 
-[![Build Status](https://dev.azure.com/corr-sc/CORR%20Foundation/_apis/build/status/CORR.Foundation?branchName=master)](https://dev.azure.com/corr-sc/CORR%20Foundation/_build)
-![Static Badge](https://img.shields.io/badge/semver-v3.9.909-blue)
+[![NuGet Version](https://img.shields.io/nuget/v/Cirreum.Communications.Sms.svg?style=flat-square)](https://www.nuget.org/packages/Cirreum.Communications.Sms/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Cirreum.Communications.Sms.svg?style=flat-square)](https://www.nuget.org/packages/Cirreum.Communications.Sms/)
+[![GitHub Release](https://img.shields.io/github/v/release/cirreum/Cirreum.Communications.Sms?style=flat-square)](https://github.com/cirreum/Cirreum.Communications.Sms/releases)
 
-Core abstractions and models for SMS communication services within the CORR ecosystem.
+Core abstractions and models for SMS communication services within the Cirreum ecosystem.
 
 ## Overview
 
@@ -12,7 +13,7 @@ This package provides the fundamental interfaces and data models for SMS messagi
 ## Installation
 
 ```bash
-dotnet add package CORR.Communications.Sms
+dotnet add package Cirreum.Communications.Sms
 ```
 
 ## Interfaces
@@ -114,7 +115,7 @@ public class SmsOptions
 
 This package contains only abstractions and models. To send SMS messages, you'll need a concrete implementation package such as:
 
-- `CORR.Communications.Sms.Twilio` - Twilio SMS provider implementation
+- `Cirreum.Communications.Sms.Twilio` - Twilio SMS provider implementation
 
 ### Dependency Injection
 
@@ -296,12 +297,12 @@ var validNumbers = response.Results.Where(r => r.Success).Select(r => r.PhoneNum
 
 This package provides the abstractions only. Choose from available provider implementations:
 
-- **Twilio**: `CORR.Communications.Sms.Twilio`
+- **Twilio**: `Cirreum.Communications.Sms.Twilio`
 - Additional providers can be added by implementing the `ISmsService` interface
 
 ## Contributing
 
-This package is part of the CORR ecosystem. Follow the established patterns when contributing new features or provider implementations.
+This package is part of the Cirreum ecosystem. Follow the established patterns when contributing new features or provider implementations.
 
 ## Webhook Integration
 
