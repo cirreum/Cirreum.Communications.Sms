@@ -300,10 +300,6 @@ This package provides the abstractions only. Choose from available provider impl
 - **Twilio**: `Cirreum.Communications.Sms.Twilio`
 - Additional providers can be added by implementing the `ISmsService` interface
 
-## Contributing
-
-This package is part of the Cirreum ecosystem. Follow the established patterns when contributing new features or provider implementations.
-
 ## Webhook Integration
 
 When using `StatusCallbackUrl`, your webhook endpoint should:
@@ -325,8 +321,6 @@ Example webhook payload:
 }
 ```
 
+## Contributing
 
-
-
-
-
+This package is part of the Cirreum ecosystem. Follow the established patterns when contributing new features or provider implementations.
